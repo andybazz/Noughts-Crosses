@@ -1,0 +1,32 @@
+html {
+	background: white;
+}
+
+.wrapper {
+	display: inline-grid;
+	grid-template-columns: auto auto auto;	
+	width:300px;
+	height:300px;
+}
+
+.box {
+	width:100px;
+	height:100px;
+	color:#000000;
+	text-align: center;
+	line-height: 100px;
+	font-size: 80px;
+	border:1px solid blue;
+	background: white;
+	box-sizing: border-box;
+}
+button {
+	padding:10px;
+	border-radius: 5px;
+}
+.redWin {
+	color:red;
+}
+.greenWin {
+	color:green;
+}
